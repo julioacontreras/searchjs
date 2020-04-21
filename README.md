@@ -223,7 +223,11 @@ support having regex as a value, you need to do two things to make this work:
 For example:
 
 ```
-{"_regexp": true, "name": "/ames/i"}
+{"_regexp": true, "name": "/ames/i"} //not implemented
+{"_start": true, "name": "ames"}
+{"_end": true, "name": "ames"}
+{"_word": true, "name": "ames"}
+{"_word": true, "name": "ames|ame"}
 ```
 
 #### Deep Search Separator
